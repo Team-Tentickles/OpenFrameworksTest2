@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSimpleHttp\src\ofxBatchDownloader.cpp">
+			<Filter>addons\ofxSimpleHttp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSimpleHttp\src\ofxChecksum.cpp">
+			<Filter>addons\ofxSimpleHttp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSimpleHttp\src\ofxDownloadCentral.cpp">
+			<Filter>addons\ofxSimpleHttp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSimpleHttp\src\ofxSimpleHttp.cpp">
+			<Filter>addons\ofxSimpleHttp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSocketIO\src\ofxSocketIO.cpp">
+			<Filter>addons\ofxSocketIO\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSocketIO\src\ofxSocketIOData.cpp">
+			<Filter>addons\ofxSocketIO\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSyphon\src\ofxSyphonClient.mm">
+			<Filter>addons\ofxSyphon\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSyphon\src\ofxSyphonServer.mm">
+			<Filter>addons\ofxSyphon\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSyphon\src\ofxSyphonServerDirectory.mm">
+			<Filter>addons\ofxSyphon\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSyphon\libs\Syphon\src\SyphonNameboundClient.m">
+			<Filter>addons\ofxSyphon\libs\Syphon\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSimpleHttp">
+			<UniqueIdentifier>{5AA91836-C7A6-1034-31FA-6E53}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSimpleHttp\src">
+			<UniqueIdentifier>{84D74B1F-8F04-BCEF-BDC0-FE81}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSocketIO">
+			<UniqueIdentifier>{B1A30043-3425-1F72-BFAE-52AE}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSocketIO\src">
+			<UniqueIdentifier>{D398A40F-C204-3F89-85D3-F8C7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSocketIO\libs">
+			<UniqueIdentifier>{B8A43D38-BEA3-8DCE-045C-532E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSocketIO\libs\socket.io-client">
+			<UniqueIdentifier>{AE4C18CF-4D82-5969-2417-9EAC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSocketIO\libs\socket.io-client\include">
+			<UniqueIdentifier>{C35A7690-F8FB-803F-C6F3-C786}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSyphon">
+			<UniqueIdentifier>{702862E9-2C7F-D5E7-AC3D-4A04}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSyphon\src">
+			<UniqueIdentifier>{8737A6AD-A31E-0FAD-2327-9136}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSyphon\libs">
+			<UniqueIdentifier>{31622136-B02D-FF2E-3DFD-430D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSyphon\libs\Syphon">
+			<UniqueIdentifier>{1E89AEE5-AE15-7664-C53A-EBED}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSyphon\libs\Syphon\src">
+			<UniqueIdentifier>{44224CCE-2F78-7C11-2F9C-26A6}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSimpleHttp\src\ofxBatchDownloader.h">
+			<Filter>addons\ofxSimpleHttp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSimpleHttp\src\ofxChecksum.h">
+			<Filter>addons\ofxSimpleHttp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSimpleHttp\src\ofxDownloadCentral.h">
+			<Filter>addons\ofxSimpleHttp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSimpleHttp\src\ofxSimpleHttp.h">
+			<Filter>addons\ofxSimpleHttp\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSocketIO\src\ofxSocketIO.h">
+			<Filter>addons\ofxSocketIO\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSocketIO\src\ofxSocketIOData.h">
+			<Filter>addons\ofxSocketIO\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSocketIO\libs\socket.io-client\include\sio_client.h">
+			<Filter>addons\ofxSocketIO\libs\socket.io-client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSocketIO\libs\socket.io-client\include\sio_message.h">
+			<Filter>addons\ofxSocketIO\libs\socket.io-client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSocketIO\libs\socket.io-client\include\sio_socket.h">
+			<Filter>addons\ofxSocketIO\libs\socket.io-client\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSyphon\src\ofxSyphon.h">
+			<Filter>addons\ofxSyphon\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSyphon\src\ofxSyphonClient.h">
+			<Filter>addons\ofxSyphon\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSyphon\src\ofxSyphonServer.h">
+			<Filter>addons\ofxSyphon\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSyphon\src\ofxSyphonServerDirectory.h">
+			<Filter>addons\ofxSyphon\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSyphon\libs\Syphon\src\SyphonNameboundClient.h">
+			<Filter>addons\ofxSyphon\libs\Syphon\src</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
